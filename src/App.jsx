@@ -1,14 +1,24 @@
 import "./App.css";
 import Header from "./Header";
-import { AboutSection, ExperienceSection, WorkSection } from "./Sections";
+import Footer from "./Footer";
+import {
+  HeroSection,
+  AboutSection,
+  EducationSection,
+  ExperienceSection,
+  WorkSection,
+} from "./Sections";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
+      <HeroSection />
       <AboutSection />
       <ExperienceSection />
       <WorkSection />
+      <EducationSection />
+      <Footer />
     </div>
   );
 };
