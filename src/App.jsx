@@ -1,14 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "./Header";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className="App">
-      <div className="text-red-900">Testing</div>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
