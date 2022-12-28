@@ -11,7 +11,7 @@ import {
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="snap-x">
       <Header />
       <HeroSection />
       <AboutSection />

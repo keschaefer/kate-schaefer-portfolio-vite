@@ -22,7 +22,7 @@ export const useActiveSectionScroll = (sections) => {
         if (section) {
           const sectionTop = section.offsetTop;
 
-          if (windowScrollPosition >= sectionTop - 100) {
+          if (windowScrollPosition >= sectionTop - 250) {
             setActiveSection(section.getAttribute("id"));
           }
         }

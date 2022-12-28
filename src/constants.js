@@ -1,7 +1,7 @@
 export const VIEW_SECTIONS = {
-  ABOUT: "about",
-  EDUCATION: "eduction",
-  EXPERIENCE: "experience",
   HERO: "hero",
+  ABOUT: "about",
+  EXPERIENCE: "experience",
   WORK: "work",
+  EDUCATION: "eduction",
 };
