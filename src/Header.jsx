@@ -1,5 +1,5 @@
-import { useActiveSectionScroll } from "./useActiveSectionScroll";
-import { VIEW_SECTIONS } from "./constants";
+import { useActiveSectionScroll } from "./hooks/useActiveSectionScroll";
+import { VIEW_SECTIONS } from "./constants/viewConstants";
 
 export const HEADER_HEIGHT_REMS = 12;
 

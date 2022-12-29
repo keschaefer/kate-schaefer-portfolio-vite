@@ -7,6 +7,9 @@ module.exports = {
         section: "30rem",
       },
     },
+    fontFamily: {
+      sans: ["Barlow"],
+    },
   },
   plugins: [],
 };
