@@ -5,7 +5,7 @@ import { HEADER_HEIGHT_REMS } from "../Header";
 const ExperienceSection = () => {
   return (
     <div
-      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-section bg-slate-400`}
+      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-section snap-start bg-slate-400`}
       id={VIEW_SECTIONS.EXPERIENCE}
     >
       <Title title="Experience" />
