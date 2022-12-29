@@ -16,8 +16,8 @@ const App = () => {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
-      <WorkSection />
       <EducationSection />
+      {/* <WorkSection /> */}
       <Footer />
     </div>
   );

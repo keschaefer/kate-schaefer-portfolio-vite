@@ -70,6 +70,14 @@ const ExperienceSection = () => {
       <JobTitle>Events Manager // Dec 2016 - Apr 2018</JobTitle>
       <WorkPlace>Seattle Repertory Theatre</WorkPlace>
       <JobTitle>Events Manager // Oct 2014 - May 2016</JobTitle>
+      <div className="pt-8" />
+      <SubTitle>Technology Expertise</SubTitle>
+      <div className="pt-2">
+        JavaScript · React · Typescript · GraphQL · Apollo · PostgreSQL ·
+        PostGIS
+        <br />
+        Storybook · Tailwind CSS · styled-components · deck.gl · NestJS · CARTO
+      </div>
     </div>
   );
 };

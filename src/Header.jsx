@@ -35,15 +35,15 @@ const Header = () => {
         href={`#${VIEW_SECTIONS.EXPERIENCE}`}
       />
       <Link
-        text="work"
-        isActive={activeSection === VIEW_SECTIONS.WORK}
-        href={`#${VIEW_SECTIONS.WORK}`}
-      />
-      <Link
         text="education"
         isActive={activeSection === VIEW_SECTIONS.EDUCATION}
         href={`#${VIEW_SECTIONS.EDUCATION}`}
       />
+      {/* <Link
+        text="work"
+        isActive={activeSection === VIEW_SECTIONS.WORK}
+        href={`#${VIEW_SECTIONS.WORK}`}
+      /> */}
     </div>
   );
 };
