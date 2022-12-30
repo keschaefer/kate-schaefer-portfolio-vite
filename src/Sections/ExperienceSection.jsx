@@ -3,7 +3,7 @@ import { VIEW_SECTIONS } from "../constants/viewConstants";
 import { HEADER_HEIGHT_REMS } from "../Header";
 
 const SubTitle = ({ children }) => {
-  return <div className="capitalize font-semibold">{children}</div>;
+  return <div className="uppercase font-semibold pt-8">{children}</div>;
 };
 
 const JobTitle = ({ children }) => {
@@ -20,6 +20,7 @@ const ExperienceSection = () => {
       className={`scroll-mt-${HEADER_HEIGHT_REMS} h-auto py-8 px-32 snap-start bg-slate-100`}
       id={VIEW_SECTIONS.EXPERIENCE}
     >
+      <Title title="Experience" />
       <SubTitle>Software Work Experience</SubTitle>
       <WorkPlace>Formidable Labs</WorkPlace>
       <JobTitle>Senior Software Engineer // Jan 2022 - present</JobTitle>
@@ -64,13 +65,11 @@ const ExperienceSection = () => {
           eCommerce site utilized by a global audience.
         </li>
       </div>
-      <div className="pt-8" />
       <SubTitle>Events Work Experience</SubTitle>
       <WorkPlace>American Red Cross of Colorado</WorkPlace>
       <JobTitle>Events Manager // Dec 2016 - Apr 2018</JobTitle>
       <WorkPlace>Seattle Repertory Theatre</WorkPlace>
       <JobTitle>Events Manager // Oct 2014 - May 2016</JobTitle>
-      <div className="pt-8" />
       <SubTitle>Technology Expertise</SubTitle>
       <div className="pt-2">
         JavaScript · React · Typescript · GraphQL · Apollo · PostgreSQL ·
