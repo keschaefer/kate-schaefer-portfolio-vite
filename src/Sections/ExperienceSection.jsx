@@ -1,4 +1,4 @@
-import { Title, SectionWrapper } from "../components";
+import { Title } from "../components";
 import { VIEW_SECTIONS } from "../constants/viewConstants";
 import { HEADER_HEIGHT_REMS } from "../Header";
 

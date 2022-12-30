@@ -2,7 +2,6 @@ import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import {
-  HeroSection,
   AboutSection,
   EducationSection,
   ExperienceSection,
@@ -13,7 +12,6 @@ const App = () => {
   return (
     <div className="snap-y">
       <Header />
-      <HeroSection />
       <AboutSection />
       <ExperienceSection />
       <EducationSection />
