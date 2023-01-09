@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        section: "30rem",
+        section: "40rem",
+      },
+      backgroundImage: {
+        hero: "url('./src/images/crested_butte_vintage.jpeg')",
+        hero2: "url('./src/images/crested_butte_black_and_white.jpeg')",
+        hero3: "url('./src/images/dunes_black_and_white.jpeg')",
       },
     },
     fontFamily: {

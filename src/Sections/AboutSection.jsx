@@ -6,7 +6,7 @@ import HeroSection from "./HeroSection";
 const AboutSection = () => {
   return (
     <div
-      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-auto  snap-start bg-green-100`}
+      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-auto snap-start bg-green-100`}
       id={VIEW_SECTIONS.ABOUT}
     >
       <HeroSection />
