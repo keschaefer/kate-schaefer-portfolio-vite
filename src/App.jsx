@@ -6,7 +6,7 @@ import {
   EducationSection,
   ExperienceSection,
   WorkSection,
-} from "./sections";
+} from "./sectionsTest";
 
 const App = () => {
   return (
