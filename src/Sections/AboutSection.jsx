@@ -28,6 +28,7 @@ const AboutSection = () => {
           table of data and voila, seeing it rendered orderly on a map.
         </p>
       </div>
+      <div className="bg-chamisa bg-no-repeat bg-cover h-image" />
     </div>
   );
 };

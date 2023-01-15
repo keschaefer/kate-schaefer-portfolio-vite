@@ -10,7 +10,6 @@ const EducationSection = () => {
   return (
     <>
       <div className={`snap-start scroll-mt-${HEADER_HEIGHT_REMS}`}>
-        <div className="bg-mountains bg-no-repeat bg-cover h-image" />
         <div
           className={`h-auto py-8 px-32 bg-yellow-100`}
           id={VIEW_SECTIONS.EDUCATION}
@@ -27,6 +26,7 @@ const EducationSection = () => {
             Collins, CO | May 2006
           </EductionItem>
         </div>
+        <div className="bg-mountains bg-no-repeat bg-cover h-image" />
       </div>
     </>
   );
