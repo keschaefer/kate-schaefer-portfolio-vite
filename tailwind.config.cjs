@@ -7,13 +7,15 @@ module.exports = {
         section: "40rem",
       },
       backgroundImage: {
-        hero: "url('./src/images/crested_butte_vintage.jpeg')",
-        hero2: "url('./src/images/crested_butte_black_and_white.jpeg')",
-        hero3: "url('./src/images/dunes_black_and_white.jpeg')",
+        dunes: "url('./src/images/dunes.jpeg')",
+        mountains: "url(./src/images/mountains.jpeg)",
       },
     },
     fontFamily: {
       sans: ["Barlow"],
+    },
+    color: {
+      grayBg: "#2d2e2d40",
     },
   },
   plugins: [],
