@@ -9,7 +9,7 @@ const Link = ({ text, href }) => {
 const Footer = () => {
   return (
     <div className="h-12 flex w-full">
-      <div className="flex justify-center items-end w-full">
+      <div className="flex justify-center items-center w-full">
         <Link text="github" href="https://github.com/keschaefer" />
         <Link
           text="linkedin"

@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        section: "40rem",
+        section: "30rem",
+        image: "20rem",
       },
       backgroundImage: {
         dunes: "url('./src/images/dunes.jpeg')",
