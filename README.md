@@ -4,4 +4,4 @@ The first professional portfolio site I created for myself was back in 2018 when
 
 I chose to give [vite](https://vitejs.dev/) a whirl as well as [Tailwind CSS](https://tailwindcss.com/), two technologies new to me, in addition to [react](https://reactjs.org/), n trusted old favorite.
 
-The site is currently under construction but will be available soon in it's beta form (basic content) soon with hopes to continue to add and iterate throughout the coming year.
+The site is currently under construction but will be available soon in it's beta form (basic content) soon with hopes to continue to add additional content and iterate throughout the coming year.
