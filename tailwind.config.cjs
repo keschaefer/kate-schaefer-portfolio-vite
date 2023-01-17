@@ -8,11 +8,11 @@ module.exports = {
         image: "20rem",
       },
       backgroundImage: {
-        dunes: "url('images/dunes.jpeg')",
-        mountains: "url(images/mountains.jpeg)",
-        chamisa: "url(images/chamisa.jpeg)",
-        mountainLake: "url(images/mountain_lake.jpeg)",
-        cottonwoods: "url(images/cottonwoods.jpeg)",
+        dunes: "url('dunes.jpeg')",
+        mountains: "url(mountains.jpeg)",
+        chamisa: "url(chamisa.jpeg)",
+        mountainLake: "url(mountain_lake.jpeg)",
+        cottonwoods: "url(cottonwoods.jpeg)",
       },
     },
     fontFamily: {
