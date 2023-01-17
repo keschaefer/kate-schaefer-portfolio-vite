@@ -80,6 +80,14 @@ const ExperienceSection = () => {
           Storybook · Tailwind CSS · styled-components · deck.gl · NestJS ·
           CARTO
         </div>
+        <div className="mt-8">
+          <a
+            className=" underline"
+            href="https://docs.google.com/document/d/1j5Hd_xq1IlhYpwolGhxI41KC8ciylKP1VwIQC9TMtaI/export?format=pdf"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
       <div className="bg-cottonwoods bg-no-repeat bg-cover h-image" />
     </div>
