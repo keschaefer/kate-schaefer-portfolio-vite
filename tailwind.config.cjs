@@ -7,9 +7,12 @@ module.exports = {
         section: "30rem",
         image: "20rem",
       },
+      spacing: {
+        section: "10rem",
+      },
       backgroundImage: {
         dunes: "url('dunes.jpeg')",
-        mountains: "url(mountains.jpeg)",
+        hikerMountain: "url(hiker_mountain.jpeg)",
         chamisa: "url(chamisa.jpeg)",
         mountainLake: "url(mountain_lake.jpeg)",
         cottonwoods: "url(cottonwoods.jpeg)",

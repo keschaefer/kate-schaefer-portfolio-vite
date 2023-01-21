@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <div
-      className={`h-${HEADER_HEIGHT_REMS} sticky top-0 z-10 bg-white flex justify-center items-end w-full`}
+      className={`h-${HEADER_HEIGHT_REMS} sticky top-0 z-10 bg-white flex justify-center items-end w-full drop-shadow-md`}
     >
       <Link
         text="about"

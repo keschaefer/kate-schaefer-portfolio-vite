@@ -6,11 +6,11 @@ import HeroSection from "./HeroSection";
 const AboutSection = () => {
   return (
     <div
-      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-auto snap-start bg-green-100`}
+      className={`scroll-mt-${HEADER_HEIGHT_REMS} h-auto snap-start`}
       id={VIEW_SECTIONS.ABOUT}
     >
       <HeroSection />
-      <div className="py-8 px-32">
+      <div className="py-8 px-40">
         <Title title="About" />
         <p className="pt-4">
           Hello! I'm Kate, a front-end focused developer who specializes in

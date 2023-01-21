@@ -14,13 +14,17 @@ const WorkPlace = ({ children }) => {
   return <div className="pt-2">{children}</div>;
 };
 
+const EductionItem = ({ children }) => {
+  return <div className="pt-2">{children}</div>;
+};
+
 const ExperienceSection = () => {
   return (
-    <div className={`snap-start scroll-mt-${HEADER_HEIGHT_REMS}`}>
-      <div
-        className={`h-auto py-8 px-32 bg-slate-100`}
-        id={VIEW_SECTIONS.EXPERIENCE}
-      >
+    <div
+      className={`snap-start scroll-mt-${HEADER_HEIGHT_REMS} h-auto w-full flex flex-row pt-10`}
+    >
+      <div className="bg-hikerMountain w-1/3 shadow-xl shadow-slate-500" />
+      <div className={`h-auto py-8 px-10 w-3/4`} id={VIEW_SECTIONS.EXPERIENCE}>
         <Title title="Experience" />
         <SubTitle>Software Work Experience</SubTitle>
         <WorkPlace>Formidable Labs</WorkPlace>
@@ -66,20 +70,24 @@ const ExperienceSection = () => {
             Produced search, sorting, and product detail features for a
             biomedical eCommerce site utilized by a global audience.
           </li>
+          <SubTitle>Events Work Experience</SubTitle>
+          <WorkPlace>American Red Cross of Colorado</WorkPlace>
+          <JobTitle>Events Manager // Dec 2016 - Apr 2018</JobTitle>
+          <WorkPlace>Seattle Repertory Theatre</WorkPlace>
+          <JobTitle>Events Manager // Oct 2014 - May 2016</JobTitle>
+          <Title title="Education" />
+          <EductionItem>
+            Web Development Immersive | Galvanize | Denver, CO | Feb 2019 M.A.
+          </EductionItem>
+          <EductionItem>
+            Museum Studies | Newcastle University | United Kingdom | Dec 2012
+          </EductionItem>
+          <EductionItem>
+            B.S. Business Administration | Colorado State University | Fort
+            Collins, CO | May 2006
+          </EductionItem>
         </div>
-        <SubTitle>Events Work Experience</SubTitle>
-        <WorkPlace>American Red Cross of Colorado</WorkPlace>
-        <JobTitle>Events Manager // Dec 2016 - Apr 2018</JobTitle>
-        <WorkPlace>Seattle Repertory Theatre</WorkPlace>
-        <JobTitle>Events Manager // Oct 2014 - May 2016</JobTitle>
-        <SubTitle>Technology Expertise</SubTitle>
-        <div className="pt-2">
-          JavaScript · React · Typescript · GraphQL · Apollo · PostgreSQL ·
-          PostGIS
-          <br />
-          Storybook · Tailwind CSS · styled-components · deck.gl · NestJS ·
-          CARTO
-        </div>
+
         <div className="mt-8">
           <a
             className=" underline"
@@ -89,7 +97,6 @@ const ExperienceSection = () => {
           </a>
         </div>
       </div>
-      <div className="bg-cottonwoods bg-no-repeat bg-cover h-image" />
     </div>
   );
 };

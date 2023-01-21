@@ -1,20 +1,14 @@
 import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
-import {
-  AboutSection,
-  EducationSection,
-  ExperienceSection,
-  WorkSection,
-} from "./sections";
+import { AboutSection, ExperienceSection, WorkSection } from "./sections";
 
 const App = () => {
   return (
-    <div className="snap-y">
+    <div className="snap-y text-xl">
       <Header />
       <AboutSection />
       <ExperienceSection />
-      <EducationSection />
       {/* <WorkSection /> */}
       <Footer />
     </div>
